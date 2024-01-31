@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 
 theme='shahada-hugo-theme'
+
+[params]
+logo_text = "Shahada Hugo Theme"
