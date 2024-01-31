@@ -1,4 +1,24 @@
-<p>Copyright {{ now.Year }}. All rights reserved.</p>
+<div class=" bg-body-secondary">
+    <footer class="py-3 my-6">
+        <div class="border-bottom">
+            <div class="container mt-auto">
+                <ul class="nav justify-content-center pb-3 mb-3">
+                    {{- range .Site.Data.navigation -}}
+                        <li class="nav-item">
+                            <a class="nav-link px-3 text-body-secondary fs-5" href="{{ .url }}">{{ .title }}</a>
+                        </li>
+                    {{ end }}
+              </ul>
+            </div>
+        </div>
+        <div class="container mt-auto pt-4">
+            <p class="text-center text-body-secondary">
+                Copyright {{ now.Year }} {{ .Site.Data.hometext.header.title }}. Powered by
+                <a class="text-decoration-none" href="https://avic.devpractical.com/personal-academic-website/">avic.devpractical.com</a>
+            </p>
+        </div>
+    </footer>
+</div>
 
 {{- with resources.Get "js/bootstrap.bundle.min.js" }}
     <script src="{{ .RelPermalink }}"></script>
