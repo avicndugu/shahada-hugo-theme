@@ -1,7 +1,7 @@
 header:
   title: "Your Full Name"
   sub_title: "Your Area of Expertise"
-  image: "/assets/images/pexels-christina-morillo-1181686-square.jpg"
+  image: "/images/pexels-christina-morillo-1181686-square.jpg"
   text: |
     Add a short summary section that lets your visitors know who you are, what you do, who it affects.
     The rest of the text in this section is gibberish. I've used the text to fill up the space that you
@@ -20,17 +20,17 @@ projects:
     - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
       contributors: "Prof. Jane X. Researcher, Dr. Michael Y. Collaborator"
       abstract_text: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
-      pdf: "/assets/pdf/example-project-document.pdf"
+      pdf: "/pdf/example-project-document.pdf"
       status: "completed"
     - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
       contributors: "Prof. Shimano P. Researcher, Dr. Hasura Y. Collaborator"
       abstract_text: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
-      pdf: "/assets/pdf/example-project-document.pdf"
+      pdf: "/pdf/example-project-document.pdf"
       status: "completed"
     - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
       contributors: "Prof. Parina T. Researcher, Dr. Priya Y. Collaborator"
       abstract_text: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
-      pdf: "/assets/pdf/example-project-document.pdf"
+      pdf: "/pdf/example-project-document.pdf"
       status: "ongoing"
 
 teaching:
@@ -95,16 +95,16 @@ contact:
     - email:
       text: "Email"
       url: "mailto:name@example.com"
-      icon: "/assets/images/envelope-square.svg"
+      icon: "/images/envelope-square.svg"
     - linkedin:
       text: "linkedIn"
       url: "https://linkedin.com"
-      icon: "/assets/images/linkedin-original.svg"
+      icon: "/images/linkedin-original.svg"
     - researchgate:
       text: "ResearchGate"
       url: "https://researchgate.com"
-      icon: "/assets/images/researchgate.svg"
+      icon: "/images/researchgate.svg"
     - academia_edu:
       text: "Academia.edu"
       url: "https://academia.edu"
-      icon: "/assets/images/academia-square.svg"
+      icon: "/images/academia-square.svg"
