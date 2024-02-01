@@ -6,7 +6,7 @@
       <div class="p-3 pb-md-4 text-center">
         {{ range .Site.Data.hometext.contact.list }}
         <a href="{{ .url }}" class="fs-4 text-body-secondary text-decoration-none">
-          <img src="{{ .icon }}" width="100">
+          <img src="{{ .icon }}" width="100" alt="{{ .text }}">
           <span class="d-none d-lg-inline-block">{{ .text }}</span>
         </a>
         {{ end }}
