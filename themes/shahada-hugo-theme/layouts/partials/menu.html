@@ -1,7 +1,7 @@
 {{ $currentPage := . }}
-{{- range .Site.Menus.main -}}
+{{- range .Site.Data.navigation -}}
     <li class="nav-item">
-        <a href="{{- .URL -}}" class="nav-link fs-5 {{ if $currentPage.IsMenuCurrent .Menu . }} active{{ end }}" {{ if $currentPage.IsMenuCurrent .Menu . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        <a href="{{- .url -}}" class="nav-link fs-5" aria-current="page">{{ .title }}</a>
     </li>
 {{- end }}
 
