@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://shahada-hugo-theme.pages.dev'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Shahada Hugo Theme'
 
 [[menus.main]]
 name = 'Home'

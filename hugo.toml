@@ -1,5 +1,8 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Shahada Hugo Theme'
 
 theme='shahada-hugo-theme'
+
+[params]
+logo_text = "Shahada Hugo Theme"
