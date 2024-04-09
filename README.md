@@ -45,7 +45,7 @@ To get started with Shahada, follow these simple steps:
    Copy everything inside the `my-academic-site/themes/shahada-hugo-theme/exampleSite/` directory into the root of your Hugo site.
 
 5. **Customize your content:**
-   Replace the contents of `hugo.toml`, `data/hometext.yaml` and `data/navigation.yaml` files with your own content.
+   Update the contents of `hugo.toml`, `data/hometext.yaml` and `data/navigation.yaml` files with your own content.
 
 6. **Run Hugo server:**
    Start the Hugo development server to preview your site locally:
@@ -61,8 +61,7 @@ To get started with Shahada, follow these simple steps:
    hugo
    ```
 
-For more detailed instructions on customizing Shahada and adding content to your site, please refer to the official documentation [Github](https://github.com/avicndugu/shahada-hugo/documentation) or [website](https://shahada-hugo.pages.dev).
-
+For more detailed instructions on customizing Shahada and adding content to your site, please refer to the [official documentation](https://avicndugu.com/templates/shahada-hugo/docs/).
 
 ## License
 
@@ -70,7 +69,7 @@ This theme is released under the [MIT License](LICENSE).
 
 ## Support
 
-If you encounter any issues or have any questions, please [open an issue](https://github.com/exampleuser/shahada/issues) on the theme's GitHub repository.
+If you encounter any issues or have any questions, please [open an issue](https://github.com/avicndugu/shahada-hugo/issues) on the theme's GitHub repository.
 
 ## Credits
 
