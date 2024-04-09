@@ -1,8 +1,0 @@
-{{ $currentPage := . }}
-{{- range .Site.Data.navigation -}}
-    <li class="nav-item">
-        <a href="{{- .url -}}" class="nav-link fs-5" aria-current="page">{{ .title }}</a>
-    </li>
-{{- end }}
-
-
