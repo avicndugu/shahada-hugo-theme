@@ -2,6 +2,8 @@ baseURL = 'https://shahada-hugo-theme.pages.dev'
 languageCode = 'en-us'
 title = 'Shahada Hugo Theme'
 
+theme='shahada-hugo-theme'
+
 [module]
   [module.hugoVersion]
     extended = false

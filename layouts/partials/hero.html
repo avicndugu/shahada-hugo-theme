@@ -1,0 +1,20 @@
+<div class="container col-xxl-8 px-6 py-8 py-lg-10">
+  <div class="row flex-lg-row justify-content-between align-items-center g-5 py-6">
+    <div class="col-md-6">
+      <h1 class="h-1 mb-2">{{ .Site.Data.hometext.header.title }}</h1>
+      <p class="fs-3 fw-medium mb-3">{{.Site.Data.hometext.header.sub_title }}</p>
+      <p class="fs-5 mb-4">{{.Site.Data.hometext.header.text }}</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        {{ range $index, $value := .Site.Data.hometext.header.buttons }}
+        <a href="{{ .url }}" class="btn btn-lg px-8 rounded text-uppercase {{ if (eq $index 0) }} btn-primary me-md-2 {{ else }} btn-outline-primary {{ end }}">{{ .text }}</a>
+        {{ end }}
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div>
+        <img src="{{ .Site.Data.hometext.header.image }}" alt="Photo of {{ .Site.Data.hometext.header.title }}" class="d-block mx-lg-auto img-fluid object-fit-cover" width="600" height="600">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Hero -->

@@ -1,0 +1,39 @@
+<div class=" bg-body-tertiary" id="projects">
+    <div class="container col-xxl-8 px-6 py-8 py-lg-10">
+      <div class="p-3 pb-md-4 mx-auto text-center">
+        <h2 class="h1 text-uppercase">{{.Site.Data.hometext.projects.title}}</h2>
+      </div>
+      {{ range $index, $value := .Site.Data.hometext.projects.list }}
+      <div class="p-3 py-6 pb-md-6 mx-auto">
+        <p class="fs-3 text-body-secondary">
+          {{ .title }}
+        </p>
+        <p class="fs-5 text-body-secondary">
+          {{.contributors}}
+        </p>
+        <div class="d-md-flex justify-content-between b-6">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button class="btn btn-outline-primary btn-sm me-md-2 text-uppercase px-4" type="button" data-bs-toggle="collapse" data-bs-target="#project-{{ $index }}" aria-expanded="false" aria-controls="collapseProject{{ $index }}">
+                {{ $.Site.Data.hometext.projects.abstract_button_text }}
+              </button>
+              <a href="{{ .pdf }}" class="btn btn-outline-primary btn-sm me-md-2 text-uppercase px-4 pt-md-3">
+                  {{ $.Site.Data.hometext.projects.pdf_button_text }}
+              </a>
+            </div>
+            <div class="d-md-flex justify-content-md-start align-items-center mt-6">
+              <span class="px-2 me-md-2 text-uppercase">{{ .status }}</span>
+            </div>
+        </div>
+        <div class="p-3 pb-md-6 mx-auto border-bottom">
+          <div class="collapse" id="project-{{ $index }}">
+            <div class="card card-body fs-5">
+              <p>{{ .abstract_text }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of project -->
+      {{ end }}
+    </div>
+    <!-- End of Projects -->
+</div>
